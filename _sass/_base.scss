@@ -278,15 +278,19 @@ section {
     .device-container {
       margin-bottom: 100px;
     }
+    a {
+      &.feature-item {
+        text-decoration: none;
+        cursor: pointer;
+        display: block;
+        &:hover, &:focus {
+          color: $theme-primary;
+        }
+      }
+    }
     .feature-item {
-      text-decoration: none;
-      cursor: pointer;
-      display: block;
       text-align: center;
       margin-bottom: 100px;
-      &:hover, &:focus {
-        color: $theme-primary;
-      }
       h3 {
         font-size: 30px;
       }
