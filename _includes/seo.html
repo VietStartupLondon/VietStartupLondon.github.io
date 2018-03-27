@@ -25,6 +25,9 @@
   <meta content="{{ site.url }}/img/posts/{{ page.image }}" property="og:image">
 {% else %}
   <meta content="{{ site.url }}/img/vietstartup-original.png" property="og:image">
+  <meta content="VietStartup Logo" property="og:image:alt">
+  <meta content="1280" property="og:image:width">
+  <meta content="528" property="og:image:height">
 {% endif %}
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
