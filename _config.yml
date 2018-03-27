@@ -1,7 +1,7 @@
 # Site settings
 title: VietStartup London
 email:
-description: VietStartup London landing page
+description: VietStartup London - A home for Vietnamese doers in London
 
 baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
 url: "https://VietStartupLondon.github.io" # the base hostname & protocol for your site
