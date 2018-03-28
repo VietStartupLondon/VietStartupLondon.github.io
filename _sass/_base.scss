@@ -116,15 +116,15 @@ p {
     background-color: transparent;
     border-color: transparent;
     .navbar-header .navbar-brand {
-      color: #aaa;
+      color: #666;
       &:hover, &:focus {
         color: #333;
       }
     }
     .nav > li > a {
-      color: #aaa;
+      color: #666;
       &:focus {
-        color: #aaa;
+        color: #666;
       }
       &:hover, &:focus:hover {
         color: #333;
